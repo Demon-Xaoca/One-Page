@@ -115,3 +115,35 @@ header:after {
     display: block;
     content: url("../images/Signature.png");
 }
+.Skills {
+    max-width: 1170px;
+    margin: auto;
+    background-color: #f8f9f9;
+    padding: 164px 0 164px;
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+.Skills h2 {
+    color:#171717;
+    font-size: 1.875rem;
+    margin: 0 0 39px 2px;
+}
+.Skills p {
+    font-size: 0.75rem;
+    color: #000000;
+    font-weight: bold;
+}
+.Design:after{
+    display: block;
+    content: url("../images/Design.png");
+    margin: 19px 0 41px;
+}
+.DEVELOPMENT:after {
+    display: block;
+    content: url("../images/DEVELOPMENT.png");
+    margin: 20px 0 41px;
+}
+.MARKETING:after {
+    display: block;
+    content: url("../images/MARKETING.png");
+    margin-top: 20px;
+}
