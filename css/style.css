@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('../fonts/Montserrat-Medium.woff') format('woff'),
+    url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/NunitoSans-Regular.eot');
+    src: url('../fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+    url('../fonts/NunitoSans-Regular.woff') format('woff'),
+    url('../fonts/NunitoSans-Regular.ttf') format('truetype'),
+    url('../fonts/NunitoSans-Regular.svg#NunitoSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-color: #e9e9e9;
+    padding: 38px 0 201px 0;
+    margin-bottom: 100px;
+}
+.header_adapt {
+    max-width: 1170px;
+    margin: auto;
+}
+.header_flex:before {
+    display: inline-block;
+    content: url("../images/Logo.png");
+}
+.header_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-bottom: 181px;
+}
+.header_adapt nav ul {
+    margin-top: 7px;
+}
+.header_adapt nav ul li {
+    display: inline-block;
+    margin: 0 15px 0;
+}
+.header_adapt nav ul:first-child{
+     margin-left: -15px;
+}
+.header_adapt nav ul:last-child{
+    margin-right: -15px;
+}
+.header_adapt nav ul li  a {
+    color: #191919;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: bold;
+}
+.Contact_Us {
+    float: right;
+    max-width: 480px;
+    margin-right: 26px;
+    padding: 0;
+}
+.Contact_Us h1 {
+    margin-bottom: 32px;
+    font-size: 2.375rem;
+    font-family: 'Montserrat-Medium', sans-serif;
+    color: #1d1d1d;
+}
+.Contact_Us p {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: 39px;
+}
+.Contact_Us a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 	0.75rem;
+    font-family: 'Montserrat-Medium', sans-serif;
+    padding: 23px 46px 22px;
+    background-color: #10c9c3;
+    max-width: 180px;
+}
+header:after {
+    display:block;
+    clear:both;
+    content: "";
+}
+.About {
+    text-align: center;
+    color: #191919;
+    font-size: 1.875rem;
+    font-family: 'Montserrat-Medium', sans-serif;
+    margin-bottom: 41px;
+}
+.text {
+    max-width: 619px;
+    margin: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    font-size: 1rem;
+    text-align: center;
+}
+.text:after{
+    margin: 38px 0 100px 0;
+    display: block;
+    content: url("../images/Signature.png");
+}
