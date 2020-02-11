@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c276e4e0-3599-4851-82ea-aae66e9c9da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -78,7 +74,9 @@
       <workItem from="1581113800046" duration="1093000" />
       <workItem from="1581276187285" duration="4084000" />
       <workItem from="1581282930689" duration="7826000" />
-      <workItem from="1581341550829" duration="10229000" />
+      <workItem from="1581341550829" duration="10550000" />
+      <workItem from="1581433686388" duration="5835000" />
+      <workItem from="1581456442510" duration="1367000" />
     </task>
     <servers />
   </component>
@@ -90,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

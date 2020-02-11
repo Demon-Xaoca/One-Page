@@ -168,23 +168,76 @@ header:after {
 .adaptive_icons {
     max-width: 1160px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
-.adaptive_icons p {
-    font-family: 'Montserrat-Medium', sans-serif;
-    color: #ffffff;
-    font-size: 1.125rem;
+.adaptive_icons li {
+    list-style-type:none;
+    display: flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+
 }
 .adaptive_icons .Projects:before {
     content: "\e622";
     font-family: Pe-icon-7-stroke;
     color: #ffffff;
     font-size: 3rem;
-    display: inline-block;
+    display: block;
     margin-right: 29px;
-    vertical-align: middle;
 }
-.adaptive_icons .Projects:after {
+.adaptive_icons li a {
+    text-decoration: none;
+    font-family: 'Montserrat-Medium', sans-serif;
+    color: #ffffff;
+    font-size: 1.125rem;
+    display: block;
+}
+.adaptive_icons .Projects a:after {
     content: "PROJECTS COMPLETED";
     display: block;
     font-size: 0.75rem;
+    margin-top: 16px;
+}
+.WORKING:before {
+    content: "\e66b";
+    font-family: Pe-icon-7-stroke;
+    color: #ffffff;
+    font-size: 3rem;
+    display: block;
+    margin-right: 29px;
+}
+.adaptive_icons .WORKING a:after {
+    content: "WORKING HOURS";
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 16px;
+}
+.adaptive_icons .POSITIVE a:after {
+    content: "POSITIVE FEEDBACKS";
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 16px;
+}
+.POSITIVE:before {
+    content: "\e611";
+    font-family: Pe-icon-7-stroke;
+    color: #ffffff;
+    font-size: 3rem;
+    display: block;
+    margin-right: 29px;
+}
+.adaptive_icons .HAPPY a:after {
+    content: "HAPPY CLIENTS";
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 16px;
+}
+.HAPPY:before {
+    content: "\e642";
+    font-family: Pe-icon-7-stroke;
+    color: #ffffff;
+    font-size: 3rem;
+    display: block;
+    margin-right: 29px;
 }
