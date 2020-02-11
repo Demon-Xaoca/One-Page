@@ -241,3 +241,46 @@ header:after {
     display: block;
     margin-right: 29px;
 }
+.blocks {
+    max-width: 1382px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blocks div {
+    width: 342px;
+    height: 299px;
+    font-family: Pe-icon-7-stroke;
+    padding-top: 134px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 3rem;
+}
+.blocks div:nth-child(odd){
+    background-color: #838383;
+    color: #838383;
+}
+.blocks div:nth-child(even){
+    background-color: #dddddd;
+    color: #dddddd;
+}
+.blocks div:nth-child(5){
+    background-color: #dddddd;
+    color: #dddddd;
+}
+.blocks div:nth-child(6) {
+    background-color: #838383;
+    color: #838383;
+}
+.blocks div:nth-child(7){
+    background-color: #dddddd;
+    color: #dddddd;
+}
+.blocks div:nth-child(8) {
+    background-color: #838383;
+    color: #838383;
+}
+.blocks div:active {
+    background-color: #252525;
+    color: #ffffff;
+}
