@@ -250,37 +250,44 @@ header:after {
 .blocks div {
     width: 342px;
     height: 299px;
-    font-family: Pe-icon-7-stroke;
     padding-top: 134px;
     text-align: center;
     box-sizing: border-box;
-    font-size: 3rem;
 }
 .blocks div:nth-child(odd){
     background-color: #838383;
-    color: #838383;
 }
 .blocks div:nth-child(even){
     background-color: #dddddd;
-    color: #dddddd;
 }
 .blocks div:nth-child(5){
     background-color: #dddddd;
-    color: #dddddd;
 }
 .blocks div:nth-child(6) {
     background-color: #838383;
-    color: #838383;
 }
 .blocks div:nth-child(7){
     background-color: #dddddd;
-    color: #dddddd;
 }
 .blocks div:nth-child(8) {
     background-color: #838383;
-    color: #838383;
 }
 .blocks div:active {
     background-color: #252525;
+}
+.blocks div:active:before{
+    content: "\e63e";
+    display: block;
+    font-family: Pe-icon-7-stroke;
     color: #ffffff;
+    font-size: 3rem;
+}
+.Load {
+    font-family: 'Montserrat-Medium', sans-serif;
+    text-align: center;
+    font-size: 	0.75rem;
+    color: #8e8e8e;
+    padding: 46px 0 45px 0;
+    background-color: #f5f5f5;
+    margin-bottom: 100px;
 }
