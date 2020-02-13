@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c276e4e0-3599-4851-82ea-aae66e9c9da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.preproc.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/f1a18fa1f9aa332d41c8bcfb3049d2f2bd2381dd/style.preproc.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/f1a18fa1f9aa332d41c8bcfb3049d2f2bd2381dd/style.preproc.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.preproc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.preproc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.preproc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1581516527586" duration="2458000" />
       <workItem from="1581608861962" duration="60000" />
       <workItem from="1581609979358" duration="3165000" />
-      <workItem from="1581623909704" duration="1645000" />
+      <workItem from="1581623909704" duration="6503000" />
     </task>
     <servers />
   </component>

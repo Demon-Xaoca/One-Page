@@ -8,11 +8,26 @@
   max-width: 504px;
   margin: auto;
 }
+%icones{
+  font-family: Pe-icon-7-stroke;
+  color:#656565;
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 31px;
+}
+%optimiz {
+  display: block;
+  color: #787878;
+  font-size: 1rem;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 20px;
+}
 $base-color:#f5f5f5;
-$font_one: Nunitosans;
+$font_one: Nunito Sans;
+$font_two: Montserrat-Medium;
 $adaptive:1170px;
 .Work_Process:after {
-  font: $font_one;
+  font-family: $font_one;
   content: "Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.";
   display:block;
   color: #787878;
@@ -35,9 +50,88 @@ $adaptive:1170px;
 }
 .icons2 {
   background-color: $base-color;
-  padding: 100px 0 100px;
+  padding: 100px 0 100px - 60px;
   div {
     max-width: 1131px;
     margin: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    h3 {
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+      font-family: $font_two;
+      font-size: 0.75rem;
+      color: #191919;
+      max-width: 229px;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .design:before {
+      content: "\e6af";
+      @extend %icones;
+    }
+    .design:after {
+      content: "Be set fourth land god darkness make it wherein own";
+      @extend %optimiz;
+    }
+    .Web:before{
+      content: "\e6ab";
+      @extend %icones;
+    }
+    .Web:after{
+      @extend %optimiz;
+      content: "A she'd them bring void moving third she'd kind fill";
+    }
+    .App:before {
+      @extend %icones;
+      content: "\e627";
+    }
+    .App:after{
+      @extend %optimiz;
+      content: "Dominion man second spirit he, earth they're creeping";
+    }
+    .Game:before{
+      @extend %icones;
+      content: "\e6a4";
+    }
+    .Game:after {
+      @extend %optimiz;
+      content: "Morning his saying moveth it multiply appear life be";
+    }
+    .Seo:before {
+      @extend %icones;
+      content:"\e625";
+    }
+    .Seo:after{
+      @extend %optimiz;
+      content: "Give won't after land fill creeping meat you, may";
+      width: 236px;
+    }
+    .Photo:before{
+      @extend %icones;
+      content: "\e611";
+    }
+    .Photo:after{
+      content: "Creepeth one seas cattle grass give moving saw give";
+      @extend %optimiz;
+    }
+    .Graphic:before{
+      @extend %icones;
+      content: "\e6b9";
+    }
+    .Graphic:after{
+      content: "Open, great whales air rule for, fourth life whales";
+      @extend %optimiz;
+    }
+    .illustr:before{
+      @extend %icones;
+      content: "\e6bd";
+    }
+    .illustr:after{
+      content: "Whales likeness hath, man kind for them air two won't";
+      @extend %optimiz;
+    }
   }
 }
