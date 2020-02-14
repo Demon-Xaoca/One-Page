@@ -201,4 +201,50 @@
         color: #ffffff;
         font-size: 0.75rem; }
 
+footer {
+  background-color: #141414;
+  padding: 99px 0 101px; }
+  footer div {
+    max-width: 1170px;
+    margin: auto; }
+    footer div div {
+      float: left; }
+      footer div div h3 {
+        font-size: 1.125rem;
+        color: #ffffff;
+        font-family: 'Montserrat-Medium', sans-serif;
+        width: auto; }
+      footer div div h3:after {
+        display: block;
+        content: "\00A9 \00A0 2017 Piroll. All rights reserved. Designed by robirurk.";
+        color: #bcbcbc;
+        font-size: 0.9375rem;
+        margin-top: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        max-width: 224px; }
+      footer div div p {
+        font-size: 0.9375rem;
+        color: #bcbcbc;
+        font-family: 'Nunito Sans', sans-serif; }
+      footer div div p:after {
+        content: "+44 987 065 908 ";
+        display: block;
+        margin-top: 10px; }
+      footer div div ul:first-child {
+        margin: 0 -12px 0 -68px; }
+      footer div div ul {
+        margin: 0 68px 0;
+        float: left; }
+        footer div div ul li {
+          list-style-type: none; }
+          footer div div ul li a {
+            font-family: 'Nunito Sans', sans-serif;
+            color: #bcbcbc;
+            font-size: 0.9375rem;
+            text-decoration: none; }
+    footer div div:first-child {
+      margin-right: 247px; }
+    footer div div:nth-child(2) {
+      margin-right: 146px; }
+
 /*# sourceMappingURL=style.preproc.css.map */
