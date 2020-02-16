@@ -10,14 +10,14 @@
   max-width: 504px;
   margin: auto; }
 
-.icons2 div .design:before, .icons2 div .Web:before, .icons2 div .App:before, .icons2 div .Game:before, .icons2 div .Seo:before, .icons2 div .Photo:before, .icons2 div .Graphic:before, .icons2 div .illustr:before {
+.icons2 div .design1:before, .icons2 div .Web:before, .icons2 div .App:before, .icons2 div .Game:before, .icons2 div .Seo:before, .icons2 div .Photo:before, .icons2 div .Graphic:before, .icons2 div .illustr:before {
   font-family: Pe-icon-7-stroke;
   color: #656565;
   font-size: 3rem;
   display: block;
   margin-bottom: 31px; }
 
-.icons2 div .design:after, .icons2 div .Web:after, .icons2 div .App:after, .icons2 div .Game:after, .icons2 div .Seo:after, .icons2 div .Photo:after, .icons2 div .Graphic:after, .icons2 div .illustr:after {
+.icons2 div .design1:after, .icons2 div .Web:after, .icons2 div .App:after, .icons2 div .Game:after, .icons2 div .Seo:after, .icons2 div .Photo:after, .icons2 div .Graphic:after, .icons2 div .illustr:after {
   display: block;
   color: #787878;
   font-size: 1rem;
@@ -65,39 +65,66 @@
       max-width: 229px;
       text-align: center;
       margin-bottom: 60px; }
-    .icons2 div .design:before {
+      @media screen and (max-width: 1024px) {
+        .icons2 div h3 {
+          font-size: 1.2rem; } }
+    .icons2 div .design1:before {
       content: "\e6af"; }
-    .icons2 div .design:after {
+    .icons2 div .design1:after {
       content: "Be set fourth land god darkness make it wherein own"; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .design1:after {
+          font-size: 1.3rem; } }
     .icons2 div .Web:before {
       content: "\e6ab"; }
     .icons2 div .Web:after {
       content: "A she'd them bring void moving third she'd kind fill"; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .Web:after {
+          font-size: 1.3rem; } }
     .icons2 div .App:before {
       content: "\e627"; }
     .icons2 div .App:after {
       content: "Dominion man second spirit he, earth they're creeping"; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .App:after {
+          font-size: 1.3rem; } }
     .icons2 div .Game:before {
       content: "\e6a4"; }
     .icons2 div .Game:after {
       content: "Morning his saying moveth it multiply appear life be"; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .Game:after {
+          font-size: 1.3rem; } }
     .icons2 div .Seo:before {
       content: "\e625"; }
     .icons2 div .Seo:after {
       content: "Give won't after land fill creeping meat you, may";
       width: 236px; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .Seo:after {
+          font-size: 1.3rem; } }
     .icons2 div .Photo:before {
       content: "\e611"; }
     .icons2 div .Photo:after {
       content: "Creepeth one seas cattle grass give moving saw give"; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .Photo:after {
+          font-size: 1.3rem; } }
     .icons2 div .Graphic:before {
       content: "\e6b9"; }
     .icons2 div .Graphic:after {
       content: "Open, great whales air rule for, fourth life whales"; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .Graphic:after {
+          font-size: 1.3rem; } }
     .icons2 div .illustr:before {
       content: "\e6bd"; }
     .icons2 div .illustr:after {
       content: "Whales likeness hath, man kind for them air two won't"; }
+      @media screen and (max-width: 1024px) {
+        .icons2 div .illustr:after {
+          font-size: 1.3rem; } }
 
 .carusel {
   background-color: #10c9c3;
@@ -117,6 +144,9 @@
       display: block;
       font-size: 0.75rem;
       margin-top: 40px; }
+      @media screen and (max-width: 1024px) {
+        .carusel .container p:after {
+          font-size: 1.3rem; } }
 
 .owl-dots {
   text-align: center;
@@ -144,17 +174,27 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    position: relative; }
     .Pictures div img {
       display: block;
       width: auto; }
+      @media screen and (max-width: 1024px) {
+        .Pictures div img {
+          transition: 1s; } }
+    @media screen and (max-width: 1024px) {
+      .Pictures div img:active {
+        transform: scale(4);
+        position: absolute;
+        margin-left: 50%; } }
 
 .Need {
   background-color: #f5f5f5;
   padding: 101px 0 100px; }
   .Need div {
     max-width: 672px;
-    margin: auto; }
+    margin: auto;
+    overflow: hidden; }
     .Need div h2 {
       font-size: 1.875rem;
       font-family: 'Montserrat-Medium', sans-serif;
@@ -168,21 +208,31 @@
       font-family: 'Nunito Sans', sans-serif;
       max-width: 538px;
       margin: 35px auto 38px; }
+      @media screen and (max-width: 1024px) {
+        .Need div h2:after {
+          font-size: 1.3rem; } }
     .Need div form div input, .Need div form textarea {
       border: none;
       padding: 18px 0 19px 20px;
       color: #787878;
       font-size: 0.9375rem;
       font-family: 'Nunito Sans', sans-serif; }
+      @media screen and (max-width: 1024px) {
+        .Need div form div input, .Need div form textarea {
+          font-size: 1.3rem; } }
     .Need div form .Name_Mail {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between; }
       .Need div form .Name_Mail input {
         width: 320px;
-        display: inline-block; }
+        box-sizing: border-box; }
     .Need div form .Title {
       margin-bottom: 30px; }
       .Need div form .Title input {
-        width: 100%; }
+        width: 100%;
+        box-sizing: border-box;
+        display: block; }
     .Need div form .Comment {
       margin-bottom: 30px; }
       .Need div form .Comment textarea {
@@ -200,6 +250,9 @@
         font-family: 'Montserrat-Medium', sans-serif;
         color: #ffffff;
         font-size: 0.75rem; }
+        @media screen and (max-width: 1024px) {
+          .Need div form .Send input {
+            font-size: 1.3rem; } }
 
 footer {
   background-color: #141414;
@@ -214,6 +267,9 @@ footer {
         color: #ffffff;
         font-family: 'Montserrat-Medium', sans-serif;
         width: auto; }
+        @media screen and (max-width: 1024px) {
+          footer div div h3 {
+            font-size: 2rem; } }
       footer div div h3:after {
         display: block;
         content: "\00A9 \00A0 2017 Piroll. All rights reserved. Designed by robirurk.";
@@ -222,16 +278,28 @@ footer {
         margin-top: 28px;
         font-family: 'Nunito Sans', sans-serif;
         max-width: 224px; }
+        @media screen and (max-width: 1024px) {
+          footer div div h3:after {
+            font-size: 1.3rem; } }
       footer div div p {
         font-size: 0.9375rem;
         color: #bcbcbc;
         font-family: 'Nunito Sans', sans-serif; }
+        @media screen and (max-width: 1024px) {
+          footer div div p {
+            font-size: 1.3rem; } }
       footer div div p:after {
         content: "+44 987 065 908 ";
         display: block;
         margin-top: 10px; }
+        @media screen and (max-width: 1024px) {
+          footer div div p:after {
+            font-size: 1.3rem; } }
       footer div div ul:first-child {
         margin: 0 -12px 0 -68px; }
+      @media screen and (max-width: 1024px) {
+        footer div div {
+          margin-top: 30px; } }
       footer div div ul {
         margin: 0 68px 0;
         float: left; }
@@ -242,9 +310,52 @@ footer {
             color: #bcbcbc;
             font-size: 0.9375rem;
             text-decoration: none; }
+            @media screen and (max-width: 1024px) {
+              footer div div ul li a {
+                font-size: 1.3rem; } }
     footer div div:first-child {
       margin-right: 247px; }
     footer div div:nth-child(2) {
       margin-right: 146px; }
+
+footer:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+header .header_adapt .header_flex nav ul li:hover a, header .header_adapt .header_flex nav ul li:active a {
+  color: #10c9c3; }
+
+@media screen and (max-width: 1024px) {
+  .header_adapt nav ul li a, .Contact_Us p, .text, .Skills div p, .adaptive_icons li a, .Work_Process:after {
+    font-size: 1.4rem; }
+
+  .adaptive_icons li:before, .adaptive_icons .Projects:before {
+    font-size: 5rem; }
+
+  .adaptive_icons .Projects a:after, .adaptive_icons .WORKING a:after, .adaptive_icons .POSITIVE a:after, .adaptive_icons .HAPPY a:after, .Load {
+    font-size: 1.2rem; }
+
+  .adaptive_icons li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .blocks {
+    width: 100%; }
+    .blocks div {
+      width: 341px;
+      height: 296px; }
+    .blocks div:nth-child(5) {
+      background-color: #838383; }
+    .blocks div:nth-child(6) {
+      background-color: #dddddd; }
+    .blocks div:nth-child(7) {
+      background-color: #838383; }
+    .blocks div:nth-child(8) {
+      background-color: #dddddd; }
+    .blocks div:nth-child(5):active, .blocks div:nth-child(6):active, .blocks div:nth-child(7):active, .blocks div:nth-child(8):active {
+      background-color: #252525; } }
 
 /*# sourceMappingURL=style.preproc.css.map */

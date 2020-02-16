@@ -4,6 +4,7 @@
     <list default="true" id="c276e4e0-3599-4851-82ea-aae66e9c9da3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/f1a18fa1f9aa332d41c8bcfb3049d2f2bd2381dd/style.preproc.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/f1a18fa1f9aa332d41c8bcfb3049d2f2bd2381dd/style.preproc.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.preproc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.preproc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.preproc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.scss" afterDir="false" />
@@ -38,7 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Ruby26-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Для вк" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,7 +86,11 @@
       <workItem from="1581608861962" duration="60000" />
       <workItem from="1581609979358" duration="3165000" />
       <workItem from="1581623909704" duration="17560000" />
-      <workItem from="1581689830668" duration="15500000" />
+      <workItem from="1581689830668" duration="16088000" />
+      <workItem from="1581714675326" duration="4944000" />
+      <workItem from="1581770087548" duration="150000" />
+      <workItem from="1581854662539" duration="14693000" />
+      <workItem from="1581877783550" duration="4981000" />
     </task>
     <servers />
   </component>
