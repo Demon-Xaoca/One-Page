@@ -28,6 +28,7 @@ header {
     background-color: #e9e9e9;
     padding: 38px 0 201px 0;
     margin-bottom: 100px;
+    width: 100%;
 }
 .header_adapt {
     max-width: 1170px;
@@ -50,11 +51,11 @@ header {
     display: inline-block;
     margin: 0 15px 0;
 }
-.header_adapt nav ul:first-child{
-     margin-left: -15px;
+.header_adapt nav ul li:first-child{
+     margin-left: 0;
 }
-.header_adapt nav ul:last-child{
-    margin-right: -15px;
+.header_adapt nav ul li:last-child{
+    margin-right: 0;
 }
 .header_adapt nav ul li  a {
     color: #191919;
@@ -121,6 +122,7 @@ header:after {
     font-family: 'Montserrat-Medium', sans-serif;
     display: flex;
     position: relative;
+    flex-wrap: wrap;
 }
 .Skills div {
     width: 1170px;
@@ -150,6 +152,7 @@ header:after {
     font-weight: bold;
     display: flex;
     flex-direction:column;
+    flex-wrap: wrap;
 }
 .Design:after{
     display: block;
@@ -297,7 +300,4 @@ header:after {
     background-color: #f5f5f5;
     margin-bottom: 100px;
 }
-body {
-    overflow-x: hidden;
 
-}

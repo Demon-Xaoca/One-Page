@@ -168,7 +168,10 @@
     margin: 0 5px; }
 
 .Pictures {
-  padding: 64px 0 64px; }
+  padding: 64px 0 64px;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%; }
   .Pictures div {
     max-width: 1099px;
     margin: auto;
@@ -223,7 +226,8 @@
     .Need div form .Name_Mail {
       margin-bottom: 30px;
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      flex-wrap: wrap; }
       .Need div form .Name_Mail input {
         width: 320px;
         box-sizing: border-box; }
@@ -357,5 +361,10 @@ header .header_adapt .header_flex nav ul li:hover a, header .header_adapt .heade
       background-color: #dddddd; }
     .blocks div:nth-child(5):active, .blocks div:nth-child(6):active, .blocks div:nth-child(7):active, .blocks div:nth-child(8):active {
       background-color: #252525; } }
+  @media only screen and (max-width: 1024px) and (max-width: 768px) {
+    .blocks div:nth-child(even) {
+      background-color: #838383; }
+    .blocks div:nth-child(odd) {
+      background-color: #dddddd; } }
 
 /*# sourceMappingURL=style.preproc.css.map */

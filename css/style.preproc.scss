@@ -214,6 +214,9 @@ $adaptive:1170px;
 }
 .Pictures {
   padding: 64px 0 64px;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
   div {
     max-width: 1099px;
     margin: auto;
@@ -277,6 +280,7 @@ $adaptive:1170px;
           margin-bottom: 30px;
           display: flex;
           justify-content: space-between;
+          flex-wrap: wrap;
             input {
               width: 320px;
               box-sizing: border-box;
@@ -431,6 +435,7 @@ header .header_adapt .header_flex nav ul {
      div {
        width: 341px;
        height: 296px;
+
      }
      div:nth-child(5) {
        background-color: #838383;
@@ -446,6 +451,14 @@ header .header_adapt .header_flex nav ul {
      }
      div:nth-child(5):active, div:nth-child(6):active, div:nth-child(7):active, div:nth-child(8):active {
        background-color: #252525;
+     }
+     @media only screen and (max-width: 768px) {
+        div:nth-child(even){
+          background-color: #838383;
+        }
+       div:nth-child(odd) {
+         background-color: #dddddd;
+       }
      }
    }
   }
