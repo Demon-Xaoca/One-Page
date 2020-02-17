@@ -361,10 +361,93 @@ header .header_adapt .header_flex nav ul li:hover a, header .header_adapt .heade
       background-color: #dddddd; }
     .blocks div:nth-child(5):active, .blocks div:nth-child(6):active, .blocks div:nth-child(7):active, .blocks div:nth-child(8):active {
       background-color: #252525; } }
-  @media only screen and (max-width: 1024px) and (max-width: 768px) {
-    .blocks div:nth-child(even) {
-      background-color: #838383; }
-    .blocks div:nth-child(odd) {
-      background-color: #dddddd; } }
+@media only screen and (max-width: 1024px) and (max-width: 768px) {
+  .header_adapt nav ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .header_adapt nav ul li {
+      margin: 0 30px 0 0; }
+
+  .blocks div {
+    width: 100%; }
+
+  footer div:last-child {
+    float: right;
+    margin-top: -120px; } }
+@media only screen and (max-width: 1024px) and (max-width: 768px) and (max-width: 414px) {
+  .header_adapt nav ul {
+    margin: -50px 0 0 45px; }
+
+  .Skills div p::after {
+    margin-left: -180px;
+    overflow-x: hidden; }
+
+  .adaptive_icons li {
+    flex-direction: row;
+    text-align: left; }
+
+  .video {
+    height: 314px;
+    padding-top: 120px; }
+
+  .icons2 div h3 {
+    max-width: 100% !important; }
+    .icons2 div h3::after {
+      width: 100% !important; }
+
+  .carusel .container p {
+    padding: 0; }
+
+  .Need div form .Name_Mail input {
+    width: 100%; }
+    .Need div form .Name_Mail input:first-child {
+      margin-bottom: 30px; }
+
+  footer div div {
+    width: 100%; }
+    footer div div:last-child {
+      margin: 30px 0 50px 0; }
+      footer div div:last-child ul:first-child {
+        margin-left: 20px; }
+      footer div div:last-child ul:nth-child(3) {
+        margin: 0; } }
+@media only screen and (max-width: 1024px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) {
+  .header_flex:before {
+    margin: auto; }
+
+  .header_adapt nav ul {
+    margin: 0; }
+    .header_adapt nav ul li {
+      margin: 0 15px 0; }
+      .header_adapt nav ul li:nth-child(4), .header_adapt nav ul li:nth-child(6), .header_adapt nav ul li:nth-child(7) {
+        margin-left: 0; }
+
+  .Contact_Us h1 {
+    text-align: center; }
+  .Contact_Us .Skills div p:after {
+    margin-left: -180px; }
+
+  footer div:last-child {
+    float: none;
+    margin-top: 0; }
+    footer div:last-child div:nth-child(2) {
+      margin-bottom: 30px; }
+    footer div:last-child div:last-child ul:nth-child(3) {
+      margin: 30px 0 0 20px; } }
+@media only screen and (max-width: 1024px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) and (max-width: 320px) {
+  .adaptive_icons .Projects:before {
+    margin-right: 0; }
+  .adaptive_icons li:before {
+    width: auto;
+    margin-right: 0; }
+  .adaptive_icons li a:after {
+    word-wrap: break-word; }
+
+  .video {
+    height: 256px;
+    padding-top: 90px; }
+
+  .Pictures div img:active {
+    transform: scale(2); } }
 
 /*# sourceMappingURL=style.preproc.css.map */

@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/css/style.preproc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.preproc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.preproc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.preproc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,8 @@
       <workItem from="1581714675326" duration="4944000" />
       <workItem from="1581770087548" duration="150000" />
       <workItem from="1581854662539" duration="14693000" />
-      <workItem from="1581877783550" duration="10649000" />
+      <workItem from="1581877783550" duration="10846000" />
+      <workItem from="1581951216741" duration="17865000" />
     </task>
     <servers />
   </component>

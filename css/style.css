@@ -153,6 +153,7 @@ header:after {
     display: flex;
     flex-direction:column;
     flex-wrap: wrap;
+    width: 100%;
 }
 .Design:after{
     display: block;
@@ -179,12 +180,15 @@ header:after {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: auto;
 }
 .adaptive_icons li {
     list-style-type:none;
     display: flex;
     align-items:flex-end;
     flex-wrap: wrap;
+    min-width: auto;
 
 }
 .adaptive_icons .Projects:before {

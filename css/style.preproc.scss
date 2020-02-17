@@ -422,43 +422,188 @@ header .header_adapt .header_flex nav ul {
      font-size: 5rem;
    }
    .adaptive_icons .Projects a:after, .adaptive_icons .WORKING a:after, .adaptive_icons .POSITIVE a:after, .adaptive_icons .HAPPY a:after, .Load {
-      font-size: 1.2rem;
+     font-size: 1.2rem;
    }
    .adaptive_icons li {
      text-align: center;
      display: flex;
-     flex-direction:column;
-     align-items:center;
+     flex-direction: column;
+     align-items: center;
    }
    .blocks {
      width: 100%;
+
      div {
        width: 341px;
        height: 296px;
 
      }
+
      div:nth-child(5) {
        background-color: #838383;
      }
-     div:nth-child(6){
+
+     div:nth-child(6) {
        background-color: #dddddd;
      }
+
      div:nth-child(7) {
        background-color: #838383;
      }
+
      div:nth-child(8) {
        background-color: #dddddd;
      }
+
      div:nth-child(5):active, div:nth-child(6):active, div:nth-child(7):active, div:nth-child(8):active {
        background-color: #252525;
      }
-     @media only screen and (max-width: 768px) {
-        div:nth-child(even){
-          background-color: #838383;
-        }
-       div:nth-child(odd) {
-         background-color: #dddddd;
+   }
+   @media only screen and (max-width: 768px) {
+     .header_adapt nav ul {
+       display: flex;
+       flex-wrap: wrap;
+
+       li {
+         margin: 0 30px 0 0;
+       }
+     }
+     .blocks {
+       div {
+         width: 100%;
+       }
+     }
+     footer {
+       div:last-child {
+         float: right;
+         margin-top: -120px;
+       }
+     }
+     @media only screen and (max-width: 414px) {
+       .header_adapt nav ul {
+         margin: -50px 0 0 45px;
+       }
+       .Skills div p {
+         &::after {
+           margin-left: -180px;
+           overflow-x: hidden;
+         }
+       }
+       .adaptive_icons li {
+         flex-direction: row;
+         text-align: left;
+       }
+       .video {
+         height: 314px;
+         padding-top: 120px;
+       }
+       .icons2 div {
+         h3 {
+           max-width: 100% !important;
+
+           &::after {
+             width: 100% !important;
+           }
+         }
+       }
+       .carusel .container p {
+         padding: 0;
+       }
+       .Need div form .Name_Mail input {
+         width: 100%;
+
+         &:first-child {
+           margin-bottom: 30px;
+         }
+       }
+       footer div {
+         div {
+           width: 100%;
+
+           &:last-child {
+             margin: 30px 0 50px 0;
+
+             ul {
+               &:first-child {
+                 margin-left: 20px;
+               }
+
+               &:nth-child(3) {
+                 margin: 0;
+               }
+             }
+           }
+         }
+       }
+       @media only screen and (max-width: 375px) {
+         .header_flex:before {
+           margin: auto;
+         }
+         .header_adapt nav ul {
+           margin: 0;
+
+           li {
+             margin: 0 15px 0;
+
+             &:nth-child(4), &:nth-child(6), &:nth-child(7) {
+               margin-left: 0;
+             }
+           }
+         }
+         .Contact_Us {
+           h1 {
+             text-align: center;
+           }
+
+           .Skills div p:after {
+             margin-left: -180px;
+           }
+         }
+         footer {
+           div {
+             &:last-child {
+               float: none;
+               margin-top: 0;
+
+               div {
+                 &:nth-child(2){
+                   margin-bottom: 30px;
+                 }
+                 &:last-child ul:nth-child(3) {
+                   margin: 30px 0 0 20px;
+                 }
+               }
+             }
+           }
+         }
+         @media only screen and (max-width: 320px) {
+           .adaptive_icons{
+            .Projects {
+              &:before {
+                margin-right: 0;
+              }
+            }
+            li {
+             &:before {
+               width: auto;
+               margin-right: 0;
+             }
+             a {
+               &:after {
+                 word-wrap: break-word;
+               }
+             }
+           }
+         }
+           .video {
+             height: 256px;
+             padding-top: 90px;
+           }
+           .Pictures div img:active {
+             transform: scale(2);
+           }
        }
      }
    }
-  }
+ }
+}
