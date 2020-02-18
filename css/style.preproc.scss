@@ -224,6 +224,7 @@ $adaptive:1170px;
   min-width: 100%;
   width: 100%;
   max-width: 100%;
+
   div {
     max-width: 1099px;
     margin: auto;
@@ -231,6 +232,9 @@ $adaptive:1170px;
     justify-content:space-between;
     flex-wrap: wrap;
     position: relative;
+    @media screen and (max-width: 1024px) {
+      padding: 0 20px 0;
+    }
     img {
       display: block;
       width: auto;
@@ -414,13 +418,6 @@ footer:after{
   content: "";
   display: block;
 }
-header .header_adapt .header_flex nav ul {
-  li:hover, li:active {
-    a {
-      color: #10c9c3;
-    }
-  }
-}
  @media screen and (max-width: 1024px) {
    .header_adapt nav ul li a, .Contact_Us p, .text, .Skills div p, .adaptive_icons li a, .Work_Process:after {
      font-size: 1.4rem;
@@ -440,8 +437,7 @@ header .header_adapt .header_flex nav ul {
    .blocks {
      width: 100%;
 
-     div {
-       width: 341px;
+     div{
        height: 296px;
 
      }
@@ -477,7 +473,9 @@ header .header_adapt .header_flex nav ul {
      }
      .blocks {
        div {
-         width: 100%;
+         padding-top: 74px;
+         box-sizing: border-box;
+         height: 200px;
        }
      }
      footer {
@@ -499,6 +497,10 @@ header .header_adapt .header_flex nav ul {
        .adaptive_icons li {
          flex-direction: row;
          text-align: left;
+       }
+       .blocks div {
+         padding-top: 34px;
+         height: 100px;
        }
        .video {
          height: 314px;
@@ -545,19 +547,8 @@ header .header_adapt .header_flex nav ul {
          }
        }
        @media only screen and (max-width: 375px) {
-         .header_flex:before {
+         .header_adapt:before {
            margin: auto;
-         }
-         .header_adapt nav ul {
-           margin: 0;
-
-           li {
-             margin: 0 15px 0;
-
-             &:nth-child(4), &:nth-child(6), &:nth-child(7) {
-               margin-left: 0;
-             }
-           }
          }
          .Contact_Us {
            h1 {
@@ -576,7 +567,10 @@ header .header_adapt .header_flex nav ul {
 
                div {
                  &:nth-child(2){
-                   margin-bottom: 30px;
+                   margin: 0 0 30px 30px;
+                 }
+                 &:first-child {
+                   margin: -100px 0 30px 20px;
                  }
                  &:last-child ul:nth-child(3) {
                    margin: 30px 0 0 20px;
@@ -611,8 +605,10 @@ header .header_adapt .header_flex nav ul {
                top: 90px;
              }
            }
-           .Pictures div img:active {
-             transform: scale(2);
+           .Pictures div {
+             img:active {
+               transform: scale(2);
+             }
            }
        }
      }
@@ -928,7 +924,8 @@ a {
   margin: 0;
   padding-left: $nav-bar-width;
   list-style: none;
-  font-family: $raleway;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: bold;
   transform: translateY(-50%);
 
   .nav__item {

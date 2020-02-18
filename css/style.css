@@ -34,35 +34,9 @@ header {
     max-width: 1170px;
     margin: auto;
 }
-.header_flex:before {
+.header_adapt:before {
     display: inline-block;
     content: url("../images/Logo.png");
-}
-.header_flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    margin-bottom: 181px;
-}
-.header_adapt nav ul {
-    margin-top: 7px;
-}
-.header_adapt nav ul li {
-    display: inline-block;
-    margin: 0 15px 0;
-}
-.header_adapt nav ul li:first-child{
-     margin-left: 0;
-}
-.header_adapt nav ul li:last-child{
-    margin-right: 0;
-}
-.header_adapt nav ul li  a {
-    color: #191919;
-    text-decoration: none;
-    font-size: 0.75rem;
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-weight: bold;
 }
 .Contact_Us {
     float: right;
@@ -261,7 +235,7 @@ header:after {
     flex-wrap: wrap;
 }
 .blocks div {
-    width: 342px;
+    flex-basis: 25%;
     height: 299px;
     padding-top: 134px;
     text-align: center;
