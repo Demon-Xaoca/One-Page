@@ -356,17 +356,7 @@ footer:after {
   .blocks {
     width: 100%; }
     .blocks div {
-      height: 296px; }
-    .blocks div:nth-child(5) {
-      background-color: #838383; }
-    .blocks div:nth-child(6) {
-      background-color: #dddddd; }
-    .blocks div:nth-child(7) {
-      background-color: #838383; }
-    .blocks div:nth-child(8) {
-      background-color: #dddddd; }
-    .blocks div:nth-child(5):active, .blocks div:nth-child(6):active, .blocks div:nth-child(7):active, .blocks div:nth-child(8):active {
-      background-color: #252525; } }
+      height: 296px; } }
 @media only screen and (max-width: 1024px) and (max-width: 768px) {
   .header_adapt nav ul {
     display: flex;
@@ -590,7 +580,6 @@ a {
   top: 0;
   bottom: 0;
   right: 0;
-  width: 60px;
   height: 100vh;
   border-right: 1px solid rgba(125, 135, 168, 0.25);
   z-index: 99; }

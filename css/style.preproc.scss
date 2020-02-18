@@ -441,26 +441,6 @@ footer:after{
        height: 296px;
 
      }
-
-     div:nth-child(5) {
-       background-color: #838383;
-     }
-
-     div:nth-child(6) {
-       background-color: #dddddd;
-     }
-
-     div:nth-child(7) {
-       background-color: #838383;
-     }
-
-     div:nth-child(8) {
-       background-color: #dddddd;
-     }
-
-     div:nth-child(5):active, div:nth-child(6):active, div:nth-child(7):active, div:nth-child(8):active {
-       background-color: #252525;
-     }
    }
    @media only screen and (max-width: 768px) {
      .header_adapt nav ul {
@@ -844,7 +824,6 @@ a {
   top: 0;
   bottom: 0;
   right: 0;
-  width: $nav-bar-width;
   height: 100vh;
   border-right: 1px solid rgba($primary, 0.25);
   z-index: 99;
